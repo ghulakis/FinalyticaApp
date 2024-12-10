@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Finalytica: Your Accounting Assistant")
+st.sidebar.header("Navigation")
+st.sidebar.selectbox("Choose a Feature", ["Dashboard", "Financial Analysis", "Tax Calculations"])
+st.write("Welcome to Finalytica, your AI-powered accounting assistant!")
