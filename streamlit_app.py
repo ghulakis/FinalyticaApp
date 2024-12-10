@@ -6,6 +6,6 @@ st.sidebar.header("Navigation")
 with st.sidebar:
     add_radio = st.radio(
                         "",
-                         ("Choose a Feature", ["Dashboard", "Financial Analysis", "Tax Calculations"])
+                         ("Choose a Feature", "Dashboard", "Financial Analysis", "Tax Calculations")
                          )
 st.write("Welcome to Finalytica, your AI-powered accounting assistant!")
